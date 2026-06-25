@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Nombre — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── MENÚ MÓVIL (DRAWER) ── -->
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+    <div class="mobile-drawer">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </div>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-logo">tu.nombre()</span>
+
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema"></button>
+        <button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <p class="hero-badge">Disponible para nuevas oportunidades</p>
+
+        <h1 class="hero-title">
+          Hola, soy<br/>
+          <span>Tu Nombre.</span>
+        </h1>
+
+        <p class="hero-sub">
+          Desarrollador full-stack apasionado por construir productos digitales limpios, rápidos y centrados en el usuario.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact"  class="btn btn-secondary">Contactar</a>
+        </div>
+
+        <div class="hero-scroll">Scroll para explorar</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-label">01 — Sobre mí</p>
+      <div class="about-grid">
+
+        <div class="about-photo">
+          <!-- Reemplaza con tu foto: <img src="foto.jpg" alt="Tu Nombre" /> -->
+          foto.jpg
+        </div>
+
+        <div class="about-text">
+          <h2 class="section-title">Un poco<br/>sobre mí</h2>
+
+          <p>
+            Soy desarrollador con X años de experiencia creando aplicaciones web escalables. Me enfoco en escribir código limpio y mantenible, con especial atención al rendimiento y la experiencia de usuario.
+          </p>
+          <p>
+            Actualmente trabajo en <strong>Nombre Empresa</strong> como <strong>Desarrollador Senior</strong>, donde lidero el desarrollo del front-end y colaboro con equipos de diseño y producto.
+          </p>
+          <p>
+            Fuera del trabajo, contribuyo a proyectos open source y me mantengo al día con las últimas tendencias del ecosistema JavaScript.
+          </p>
+
+          <div class="about-stats">
+            <div>
+              <div class="stat-num">X+</div>
+              <div class="stat-label">Años de<br/>experiencia</div>
+            </div>
+            <div>
+              <div class="stat-num">XX</div>
+              <div class="stat-label">Proyectos<br/>completados</div>
+            </div>
+            <div>
+              <div class="stat-num">XX</div>
+              <div class="stat-label">Clientes<br/>satisfechos</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="section-label">02 — Stack tecnológico</p>
+      <h2 class="section-title">Tecnologías<br/>que domino</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <p class="skill-group-title">Front-end</p>
+          <ul class="skill-list">
+            <li class="skill-item"><span class="skill-dot"></span>React / Next.js</li>
+            <li class="skill-item"><span class="skill-dot"></span>TypeScript</li>
+            <li class="skill-item"><span class="skill-dot"></span>Tailwind CSS</li>
+            <li class="skill-item"><span class="skill-dot"></span>HTML &amp; CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">Back-end</p>
+          <ul class="skill-list">
+            <li class="skill-item"><span class="skill-dot"></span>Node.js / Express</li>
+            <li class="skill-item"><span class="skill-dot"></span>Python / FastAPI</li>
+            <li class="skill-item"><span class="skill-dot"></span>REST APIs</li>
+            <li class="skill-item"><span class="skill-dot"></span>GraphQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">Base de datos</p>
+          <ul class="skill-list">
+            <li class="skill-item"><span class="skill-dot"></span>PostgreSQL</li>
+            <li class="skill-item"><span class="skill-dot"></span>MongoDB</li>
+            <li class="skill-item"><span class="skill-dot"></span>Redis</li>
+            <li class="skill-item"><span class="skill-dot"></span>Prisma ORM</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">DevOps &amp; Tools</p>
+          <ul class="skill-list">
+            <li class="skill-item"><span class="skill-dot"></span>Git / GitHub</li>
+            <li class="skill-item"><span class="skill-dot"></span>Docker</li>
+            <li class="skill-item"><span class="skill-dot"></span>CI/CD (GitHub Actions)</li>
+            <li class="skill-item"><span class="skill-dot"></span>AWS / Vercel</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-label">03 — Proyectos</p>
+      <h2 class="section-title">Trabajo<br/>seleccionado</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🛒</span>
+            <div class="project-links">
+              <a href="#" title="GitHub">GitHub ↗</a>
+              <a href="#" title="Demo">Demo ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">E-commerce Platform</h3>
+          <p class="project-desc">
+            Plataforma de comercio electrónico full-stack con carrito de compras, pasarela de pagos y panel de administración en tiempo real.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📊</span>
+            <div class="project-links">
+              <a href="#" title="GitHub">GitHub ↗</a>
+              <a href="#" title="Demo">Demo ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">Analytics Dashboard</h3>
+          <p class="project-desc">
+            Dashboard interactivo para visualización de KPIs empresariales con filtros dinámicos y exportación de reportes en PDF.
+          </p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">D3.js</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">💬</span>
+            <div class="project-links">
+              <a href="#" title="GitHub">GitHub ↗</a>
+              <a href="#" title="Demo">Demo ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">Chat en Tiempo Real</h3>
+          <p class="project-desc">
+            Aplicación de mensajería con rooms, notificaciones push, historial de mensajes y soporte para archivos multimedia.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Socket.io</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🤖</span>
+            <div class="project-links">
+              <a href="#" title="GitHub">GitHub ↗</a>
+              <a href="#" title="Demo">Demo ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">AI Content Generator</h3>
+          <p class="project-desc">
+            Herramienta de generación de contenido con IA que integra modelos de lenguaje para redacción, resumen y traducción.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">React</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label">04 — Contacto</p>
+      <div class="contact-grid">
+
+        <div>
+          <h2 class="section-title">Hablemos</h2>
+          <p class="contact-intro">
+            ¿Tienes un proyecto en mente, una oportunidad laboral o simplemente quieres saludar? Mi bandeja de entrada siempre está abierta.
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a href="mailto:tu@email.com">
+                <span class="link-label">Email</span>
+                <span class="link-value">tu@email.com ↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">
+                <span class="link-label">GitHub</span>
+                <span class="link-value">github.com/tu-usuario ↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">
+                <span class="link-label">LinkedIn</span>
+                <span class="link-value">linkedin.com/in/tu-usuario ↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener">
+                <span class="link-label">Twitter / X</span>
+                <span class="link-value">@tu-usuario ↗</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <form action="https://formsubmit.co/tu@email.com" method="POST">
+            <!-- FormSubmit config (opcional) -->
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="gracias.html" />
+
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start; margin-top: 4px;">
+              Enviar mensaje
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">&copy; 2026 Tu Nombre. Diseñado y desarrollado con cuidado.</p>
+        <a href="#hero" class="footer-back-top">&uarr; Volver arriba</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
