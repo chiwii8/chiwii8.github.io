@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alejandro — Estudiante de Informática</title>
+  <title>Alejandro, Ingeniero de Software</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -83,7 +83,7 @@
 
         <div class="about-photo">
           <!-- Reemplaza con tu foto: <img src="foto.jpg" alt="Alejandro" /> -->
-          foto.jpg
+          <img src="retrato.jpeg" alt="Alejandro, Ingeniero informático" draggable="false">
         </div>
 
         <div class="about-text">
@@ -175,7 +175,54 @@
 
       <div class="projects-grid">
 
-        
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">✈️</span>
+            <div class="project-links">
+              <a href="https://github.com/chiwii8/opensky-kappa-arch" target="_blank" title="GitHub">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">OpenSky Real-Time Data Pipeline</h3>
+          <p class="project-desc">
+            Pipeline completo de ingesta y procesamiento de datos en tiempo real de la API de OpenSky.
+            Utiliza Apache Kafka para la ingesta, Apache Spark Streaming y Flink para el procesamiento distribuido,
+            Apache Cassandra como almacenamiento NoSQL y un dashboard en Grafana orquestado mediante Docker Compose.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Apache Kafka</span>
+            <span class="tag">Apache Flink</span>
+            <span class="tag">Cassandra</span>
+            <span class="tag">Grafana</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🪙</span>
+            <div class="project-links">
+              <a href="https://github.com/chiwii8/trading-platform" target="_blank" title="GitHub">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-name">Crypto Real-Time Streaming & Time-Series Pipeline</h3>
+          <p class="project-desc">
+            Pipeline de datos en tiempo real para extracción y procesamiento de criptomonedas. 
+            Utiliza Apache Kafka para la ingesta de streams continuos, Apache Flink para el procesamiento de series temporales, 
+            InfluxDB como base de datos especializada y Grafana para la visualización de métricas y tendencias de mercado.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Apache Kafka</span>
+            <span class="tag">Apache Flink</span>
+            <span class="tag">InfluxDB</span>
+            <span class="tag">Grafana</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+
+
 
       </div>
     </div>
