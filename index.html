@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alejandro — Estudiante de Informática</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!-- ── MENÚ MÓVIL (DRAWER) ── -->
@@ -24,7 +28,6 @@
   <!-- ── NAV ── -->
   <nav>
     <div class="nav-inner">
-      <span class="nav-logo">alejandro.dev()</span>
 
       <ul class="nav-links">
         <li><a href="#about">Sobre mí</a></li>
@@ -35,7 +38,8 @@
 
       <div class="nav-actions">
         <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema"></button>
-        <button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+        <button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="mobile-menu">
           <span></span>
           <span></span>
           <span></span>
@@ -48,23 +52,23 @@
   <section id="hero">
     <div class="container">
       <div class="hero-inner">
-        <p class="hero-badge">Buscando mis primeras prácticas o trabajo</p>
+        <p class="hero-badge">Buscando mi primer trabajo</p>
 
         <h1 class="hero-title">
-          Hola, soy<br/>
+          Hola, soy<br />
           <span>Alejandro.</span>
         </h1>
 
         <p class="hero-sub">
-          Estudiante de Ingeniería Informática con pasión por el desarrollo de software. Me gusta construir cosas, aprender rápido y resolver problemas reales con código.
+          Estudiante de Ingeniería Informática con pasión por el desarrollo de software. Me gusta construir cosas,
+          aprender rápido y resolver problemas reales con código.
         </p>
 
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary">Ver proyectos</a>
-          <a href="#contact"  class="btn btn-secondary">Contactar</a>
+          <a href="#contact" class="btn btn-secondary">Contactar</a>
         </div>
 
-        <div class="hero-scroll">Scroll para explorar</div>
       </div>
     </div>
   </section>
@@ -83,36 +87,25 @@
         </div>
 
         <div class="about-text">
-          <h2 class="section-title">Un poco<br/>sobre mí</h2>
+          <h2 class="section-title">Un poco<br />sobre mí</h2>
 
           <p>
-            Soy estudiante de último curso de <strong>Ingeniería Informática</strong>. Durante la carrera he desarrollado una base sólida en programación, algoritmos y diseño de sistemas, con especial interés en el desarrollo de software y la automatización.
+            Soy un estudiante finalizando un master de <strong>Ingeniería Informática</strong>. Durante mi carrera he
+            desarrollado una base sólida en programación, algoritmos y diseño de sistemas, con especial interés en el
+            desarrollo de software y la automatización.
           </p>
           <p>
-            Me tomo los proyectos académicos como si fueran proyectos reales: documento, refactorizo y me preocupo por escribir código que otros puedan entender. Creo que los buenos hábitos se construyen desde el principio.
+            Me tomo los proyectos académicos como si fueran proyectos reales: Primero realizo un planteamiento y
+            dirección del proyecto a realizar, refactorizo y me preocupo por escribir código que otros puedan entender.
+            Creo que los buenos hábitos se construyen desde el principio.
           </p>
           <p>
-            Estoy buscando activamente mis <strong>primeras prácticas o un trabajo de entrada</strong> donde poder aportar, seguir aprendiendo y crecer junto a un equipo.
+            Estoy buscando activamente mis <strong>Un trabajo de entrada</strong> donde poder aportar, seguir
+            aprendiendo y crecer junto a un equipo.
           </p>
 
-          <div class="about-stats">
-            <div>
-              <div class="stat-num">4</div>
-              <div class="stat-label">Años de<br/>carrera</div>
-            </div>
-            <div>
-              <div class="stat-num">6+</div>
-              <div class="stat-label">Proyectos<br/>académicos</div>
-            </div>
-            <div>
-              <div class="stat-num">3</div>
-              <div class="stat-label">Lenguajes<br/>principales</div>
-            </div>
-          </div>
         </div>
-
       </div>
-    </div>
   </section>
 
   <hr class="divider" />
@@ -121,17 +114,23 @@
   <section id="skills" class="section">
     <div class="container">
       <p class="section-label">02 — Stack tecnológico</p>
-      <h2 class="section-title">Tecnologías<br/>que manejo</h2>
+      <h2 class="section-title">Tecnologías<br />que manejo</h2>
 
       <div class="skills-grid">
 
         <div class="skill-group">
-          <p class="skill-group-title">Lenguajes</p>
+          <p class="skill-group-title">Lenguajes principales</p>
           <ul class="skill-list">
             <li class="skill-item"><span class="skill-dot"></span>Python</li>
             <li class="skill-item"><span class="skill-dot"></span>Java</li>
-            <li class="skill-item"><span class="skill-dot"></span>JavaScript</li>
-            <li class="skill-item"><span class="skill-dot"></span>HTML &amp; CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">Lenguajes Ocasionales</p>
+          <ul class="skill-list">
+            <li class="skill-item"><span class="skill-dot"></span>JavaScript/Angular</li>
+            <li class="skill-item"><span class="skill-dot"></span>C#</li>
           </ul>
         </div>
 
@@ -140,28 +139,26 @@
           <ul class="skill-list">
             <li class="skill-item"><span class="skill-dot"></span>Git / GitHub</li>
             <li class="skill-item"><span class="skill-dot"></span>Docker</li>
-            <li class="skill-item"><span class="skill-dot"></span>Linux / Bash</li>
-            <li class="skill-item"><span class="skill-dot"></span>VS Code</li>
+            <li class="skill-item"><span class="skill-dot"></span>Github Workflows</li>
+            <li class="skill-item"><span class="skill-dot"></span>Postman</li>
+            <li class="skill-item"><span class="skill-dot"></span>SonarLint</li>
           </ul>
         </div>
 
         <div class="skill-group">
-          <p class="skill-group-title">Conceptos</p>
+          <p class="skill-group-title">Bases de Datos</p>
           <ul class="skill-list">
-            <li class="skill-item"><span class="skill-dot"></span>Estructuras de datos</li>
-            <li class="skill-item"><span class="skill-dot"></span>Algoritmos</li>
-            <li class="skill-item"><span class="skill-dot"></span>POO</li>
-            <li class="skill-item"><span class="skill-dot"></span>REST APIs</li>
+            <li class="skill-item"><span class="skill-dot"></span>PostgreSQL</li>
+            <li class="skill-item"><span class="skill-dot"></span>MySQL</li>
+            <li class="skill-item"><span class="skill-dot"></span>MongoDB</li>
           </ul>
         </div>
 
         <div class="skill-group">
           <p class="skill-group-title">Aprendiendo</p>
           <ul class="skill-list">
-            <li class="skill-item"><span class="skill-dot"></span>React</li>
-            <li class="skill-item"><span class="skill-dot"></span>SQL / PostgreSQL</li>
-            <li class="skill-item"><span class="skill-dot"></span>Testing unitario</li>
-            <li class="skill-item"><span class="skill-dot"></span>CI/CD básico</li>
+            <li class="skill-item"><span class="skill-dot"></span>CI/CD</li>
+            <li class="skill-item"><span class="skill-dot"></span>Sistemas Multiagentes</li>
           </ul>
         </div>
 
@@ -171,89 +168,14 @@
 
   <hr class="divider" />
 
-  <!-- ── PROJECTS ── -->
   <section id="projects" class="section">
     <div class="container">
       <p class="section-label">03 — Proyectos</p>
-      <h2 class="section-title">Proyectos<br/>académicos</h2>
+      <h2 class="section-title">proyectos</h2>
 
       <div class="projects-grid">
 
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-icon">🎓</span>
-            <div class="project-links">
-              <a href="#" title="GitHub">GitHub ↗</a>
-            </div>
-          </div>
-          <h3 class="project-name">TFG — Gestor de tareas</h3>
-          <p class="project-desc">
-            Aplicación web para gestión de tareas y proyectos personales con autenticación, prioridades y notificaciones. Trabajo de Fin de Grado.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Python</span>
-            <span class="tag">Flask</span>
-            <span class="tag">SQLite</span>
-            <span class="tag">HTML/CSS</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-icon">📦</span>
-            <div class="project-links">
-              <a href="#" title="GitHub">GitHub ↗</a>
-            </div>
-          </div>
-          <h3 class="project-name">Inventario con Docker</h3>
-          <p class="project-desc">
-            Sistema de gestión de inventario dockerizado con API REST en Java. Incluye endpoints CRUD y documentación básica.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Java</span>
-            <span class="tag">Spring Boot</span>
-            <span class="tag">Docker</span>
-            <span class="tag">REST</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-icon">🤖</span>
-            <div class="project-links">
-              <a href="#" title="GitHub">GitHub ↗</a>
-            </div>
-          </div>
-          <h3 class="project-name">Script de automatización</h3>
-          <p class="project-desc">
-            Herramienta en Python para automatizar la organización de archivos y generar informes en CSV a partir de datos en bruto.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Python</span>
-            <span class="tag">pandas</span>
-            <span class="tag">Bash</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-icon">🌐</span>
-            <div class="project-links">
-              <a href="#" title="GitHub">GitHub ↗</a>
-              <a href="#" title="Demo">Demo ↗</a>
-            </div>
-          </div>
-          <h3 class="project-name">Este portfolio</h3>
-          <p class="project-desc">
-            Portfolio personal construido desde cero con HTML, CSS y JavaScript vanilla. Incluye toggle de tema claro/oscuro y menú adaptable.
-          </p>
-          <div class="project-tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">GitHub Pages</span>
-          </div>
-        </div>
+        
 
       </div>
     </div>
@@ -270,7 +192,8 @@
         <div>
           <h2 class="section-title">Hablemos</h2>
           <p class="contact-intro">
-            Estoy abierto a oportunidades de prácticas, trabajo de entrada o simplemente a conectar con gente del sector. Si crees que encajo con lo que buscas, escríbeme.
+            Estoy abierto a oportunidades de trabajo de entrada o simplemente a conectar con gente del
+            sector. Si crees que encajo con lo que buscas, escríbeme.
           </p>
 
           <ul class="social-links">
@@ -281,15 +204,15 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">
+              <a href="https://github.com/chiwii8" target="_blank" rel="noopener">
                 <span class="link-label">GitHub</span>
-                <span class="link-value">github.com/tu-usuario ↗</span>
+                <span class="link-value">github.com/chiwii8 ↗</span>
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">
+              <a href="www.linkedin.com/in/alejandro-sánchez-rodríguez" target="_blank" rel="noopener">
                 <span class="link-label">LinkedIn</span>
-                <span class="link-value">linkedin.com/in/tu-usuario ↗</span>
+                <span class="link-value">www.linkedin.com/in/alejandro-sánchez-rodríguez ↗</span>
               </a>
             </li>
           </ul>
@@ -337,4 +260,5 @@
 
   <script src="main.js"></script>
 </body>
+
 </html>
